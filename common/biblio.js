@@ -878,6 +878,7 @@ var biblio = {
 
 		 "GPII-1":
 		{
+		"title": "Global Public Inclusive Infrastructure (GPII)",
 		"publisher": "GPII",
 		"etAl": "false",
 		"href": "http://gpii.net/"
