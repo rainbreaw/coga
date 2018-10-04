@@ -39,80 +39,68 @@ It identifies user needs that are not currently fully addressed by accessibility
 	<p>There is also an <a href="https://www.w3.org/WAI/PF/cognitive-a11y-tf/wiki/Gap_Analysis_Summary#Summary_of_Issues">issue summary</a>.</p></div>
 <p><strong>Please note this table is incomplete, and is a work in progress.</strong>) </p>
 <section>
-				<h3 id="table1"> Table 1: Authentication and Safety</h3>
-				<p><strong>About users:</strong> Many users (most COGA groups) have memory issues that can make transcribing text or remembering passwords difficult or impossible. Other contributing issues include impaired executive function. </p>
-				<p>Sometimes security and authentication put a barrier between users and the tasks they are doing. For example, requiring remembering and/or transcribing passwords often bar users with cognitive disabilities from accessing content or using a service. </p>
-				<p>This leads to the following user stories.</p>
-				<ol>
-					<li>As a user who has memory impairments and often forgets passwords, I need to be able to use a site, without remembering or transcribing  passwords and user names, so I can use its service.</li>
-					<li>As a user who has  impairments, I need to use a site without being required to transcribe items in the correct sequence.</li>
-					<li>As a user who has weak executive function, I need the   login process to be simple, and not multi-step, so I can use it.</li>
-					<li>As a symbol user, I  need a login process I can use.</li>
-				</ol>
-                
-                <table  border="1" >
-  <tbody>
-    <tr>
-      <th scope="col">User Needs <a href="#userneeds" >*</a></th>
-      <th scope="col"><p>WCAG  </p>
-        <p>Proposed Success Criteria <a href="#WCAGex" >*</a></p></th>
-      <th scope="col">Authoring Techniques<a href="#authoring" >*</a></th>
-      <th scope="col"><p>Proposed New Semantics <a href="#semantics" >*</a></p>
-        </th>
-      <th scope="col">Personalization<a href="#personalization" >*</a></th>
-      <th scope="col">Operating System / Other <a href="#operating" >*</a></th>
-    </tr>
-    <tr>
-      <th scope="row">
-      <p>I need a method of secure website authentication that I find easy to use.</p>
-      <p>(Assume I have cognitive and memory impairments.) </p>
-      <p><a href="#Discussion1">more</a> </p></th>
-      <td><p><strong>Accessible authentication </strong>        </p>
-        <p>Level A</p>
-        <p>--------</p>
-        <p class="ednote"> does this support symbol users?</p>
-        </td>
-      <td><p><a href="https://w3c.github.io/coga/techniques/index.html#Minimizethecognitiveskills"> Minimize the cognitive skills required to use the content</a> - the examples in security.</p>
-        <p>Techniques should include how to have security that uses passwords or transcribing, such as biometrics and tokens.</p></td>
-      <td>None</td>
-      <td><p class="ednote"> we need to capture types of security these users can employ and, maybe, if they require the use of an API such as password storage.</p></td>
-      <td>Hardware and operating systems could provide authentication to websites and applications. <p class="ednote"> needs further investigation and risk analysis.</p>
-        
-        <p>Encourage a standardized third party sign in, which is exclusively for authentication, and helps users login anywhere. </p></td>
-      </tr>
-    <tr>
-      <th scope="row"> 
-        <p>I need a safe way to interact online. </p>
-        <p>(Assume I do not have the cognitive function to identify all risks.)</p>
-        <p><a href="#Discussion1">more</a>  </p></th>
-      <td><p>As above </p>
-        <p>and</p>
-        <p><strong>Safe</strong></p>
-        <p>Use known techniques to keep user information safe, and warn users of any known risk.</p>
-        <p>and</p>
-        <p><strong>Do not automatically choose options that may disadvantage users</strong> without their approval, or add mechanisms likely to confuse users in a way that may do them harm.</p>
-        <p>Level A</p>
-      </td>
-        <td><p><a href="https://w3c.github.io/coga/techniques/index.html#keep-the-user-safe"> Keep users safe</a>.</p>
-        
-        <p class="ednote"> Add: notify users when they are leaving a website if leaving it may cause them harm.</p>
-        <p>Give positive and negative examples.</p></td>
-      <td></td>
-      <td>We need to ensure users are not put at risk due to personalization and storing data. Proposals include use of functional requirements and employing personalization on users' devices.</td>
-      <td>Tools for users to warn them when a post or an activity may expose them, or is considered inappropriate.</td>
-      </tr>
-    
-  </tbody>
-</table>
-				<h4 id="Discussion1">Discussion</h4>
-                <p><a href="https://w3c.github.io/coga/issue-papers/privacy-security.html">Privacy and Security issue paper</a><a href="https://w3c.github.io/coga/issue-papers/security.html"></a></p>
-                <p><a href="https://w3c.github.io/coga/issue-papers/safety.html">Online Safety issue paper</a></p>
-                <p><a href="https://www.w3.org/WAI/PF/cognitive-a11y-tf/wiki/Easy_Personalization">Script for Personalization</a> and <a href="https://github.com/ayelet-seeman/COGA.personalisation">example for personalization</a></p>
-                <p><a href="https://www.w3.org/TR/personalization-semantics-1.0/">Semantics</a></p>
-                <p><a href="https://www.w3.org/WAI/PF/cognitive-a11y-tf/wiki/Proposal_for_WCAG ">Proposal for WCAG </a></p>
-                <p><a href="https://w3c.github.io/coga/techniques/index.html ">Techniques</a></p>
+    <h3 id="table1">Authentication and Safety</h3>
+    <p><strong>About users:</strong> Many users (most COGA groups) have memory issues that can make transcribing text or remembering passwords difficult or impossible. Other contributing issues include impaired executive function. </p>
+    <p>Sometimes security and authentication put a barrier between users and the tasks they are doing. For example, requiring remembering and/or transcribing passwords often bar users with cognitive disabilities from accessing content or using a service. </p>
+    <p>This leads to the following user stories.</p>
+    <ol>
+        <li>As a user who has memory impairments and often forgets passwords, I need to be able to use a site, without remembering or transcribing  passwords and user names, so I can use its service.</li>
+        <li>As a user who has  impairments, I need to use a site without being required to transcribe items in the correct sequence.</li>
+        <li>As a user who has weak executive function, I need the   login process to be simple, and not multi-step, so I can use it.</li>
+        <li>As a symbol user, I  need a login process I can use.</li>
+    </ol>
+
+     <section>
+        <h4>Secure Web Authentication</h4>
+        <p>I need a method of secure website authentication that I find easy to use.(Assume I have cognitive and memory impairments.) </p>
+        <dl>
+            <dt>Accessible authentication:</dt>
+            <dd>
+                <p>Technique: <a href="https://w3c.github.io/coga/techniques/index.html#Minimizethecognitiveskills">Minimize the cognitive skills required to use the content</a> - the examples in security.</p>
+                <p>Techniques should include how to have security that uses passwords or transcribing, such as biometrics and tokens.</p>
+            </dd>
+            <dd>
+                <p>Operating system / Other: Hardware and operating systems could provide authentication to websites and applications. </p>
+                <p><strong>Editors' Note:</strong> needs further investigation and risk analysis.</p>        
+                <p>Encourage a standardized third party sign in, which is exclusively for authentication, and helps users login anywhere. </p>
+            </dd>
+        </dl>
+     </section>
+     <section>
+        <h4>Safe interaction online</h4>
+        <p>I need a safe way to interact online. (Assume I do not have the cognitive function to identify all risks.)</p>
+        <dl>
+            <dt>Safe</dt>
+            <dd>
+                <p>Technique: Use known techniques to keep user information safe, and warn users of any known risk.</p>
+            </dd>
+            <dd>
+                <p>Technique: Do not automatically choose options that may disadvantage users without their approval, or add mechanisms likely to confuse users in a way that may do them harm.</p>
+            </dd>
+            <dd>
+                <p>Technique: <a href="https://w3c.github.io/coga/techniques/index.html#keep-the-user-safe"> Keep users safe</a>.</p>
+                <p><strong>Editors' Note:</strong> add notify users when they are leaving a website if leaving it may cause them harm.</p>
+                <p>Give positive and negative examples.</p>
+            </dd>
+            <dd>
+                <p>Personlisation: We need to ensure users are not put at risk due to personalization and storing data. Proposals include use of functional requirements and employing personalization on users' devices.</p>
+            </dd>
+            <dd>
+                <p>Operating system / Other: Tools for users to warn them when a post or an activity may expose them, or is considered inappropriate.</p>
+            </dd>
+        </dl>
+     </section>
+
+    <h4 id="Discussion1">Discussion</h4>
+    <p><a href="https://w3c.github.io/coga/issue-papers/privacy-security.html">Privacy and Security issue paper</a><a href="https://w3c.github.io/coga/issue-papers/security.html"></a></p>
+    <p><a href="https://w3c.github.io/coga/issue-papers/safety.html">Online Safety issue paper</a></p>
+    <p><a href="https://www.w3.org/WAI/PF/cognitive-a11y-tf/wiki/Easy_Personalization">Script for Personalization</a> and <a href="https://github.com/ayelet-seeman/COGA.personalisation">example for personalization</a></p>
+    <p><a href="https://www.w3.org/TR/personalization-semantics-1.0/">Semantics</a></p>
+    <p><a href="https://www.w3.org/WAI/PF/cognitive-a11y-tf/wiki/Proposal_for_WCAG ">Proposal for WCAG </a></p>
+    <p><a href="https://w3c.github.io/coga/techniques/index.html ">Techniques</a></p>
   
 </section>
+
 <section>
   <h3 id="table2">Table 2: Context and Distractions</h3>
 				<p><strong>About users:</strong> distractions can cause users with cognitive disabilities to lose focus on the current action being performed; or draw attention away from primary content; and can be difficult for some users to know how to understand, avoid, and/or stop them.</p>
