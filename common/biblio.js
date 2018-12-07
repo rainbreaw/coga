@@ -1885,6 +1885,27 @@ var biblio = {
 		"publisher": "ASSETS '12 The proceedings of the 13th international ACM SIGACCESS conference on computers and accessibility, pages 25-32",
 		"publishDate": "2012"
 		},
+	"coga-user-research":
+		{
+		"title": "Cognitive Accessibility User Research",
+		"authors": [
+			"Lisa Seeman",
+			"Michael Cooper"
+		],
+		"etAl": "false",
+		"publishDate": "2015",
+		"href": "https://www.w3.org/TR/coga-user-research/"
+		},
+	"coga-issue-papers":
+		{
+		"title": "Cognitive Accessibility Issue Papers",
+		"authors": [
+			"Lisa Seeman",
+			"Michael Cooper"
+		],
+		"etAl": "false",
+		"href": "https://w3c.github.io/coga/issue-papers/"
+		}
 
 	
 		
