@@ -31,7 +31,7 @@ var respecConfig = {
     //previousDiffURI: "",
 
     // if there a publicly available Editors Draft, this is the link
-    edDraftURI: "https://w3c.github.io/coga/content-usable/",
+    edDraftURI: "https://w3c.github.io/coga/content-usable/pages/",
 
     // if this is a LCWD, uncomment and set the end of its review period
     // lcEnd: "2012-02-21",
@@ -108,7 +108,7 @@ var respecConfig = {
     wgPatentURI:  ["https://www.w3.org/2004/01/pp-impl/83907/status", "https://www.w3.org/2004/01/pp-impl/32212/status"],
     maxTocLevel: 3,
 
-    localBiblio: biblio,
+    //localBiblio: biblio,
 
     // Spec URLs
         
