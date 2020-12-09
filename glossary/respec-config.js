@@ -7,7 +7,7 @@ var respecConfig = {
     permalinkHide:     false,
     tocIntroductory: true,
     // specification status (e.g., WD, LC, NOTE, etc.). If in doubt use ED.
-    specStatus:           "WD",
+    specStatus:           "ED",
     noRecTrack: true,
     //crEnd:                "2012-04-30",
     //perEnd:               "2013-07-23",
@@ -15,7 +15,7 @@ var respecConfig = {
     //diffTool:             "http://www.aptest.com/standards/htmldiff/htmldiff.pl",
 
     // the specifications short name, as in http://www.w3.org/TR/short-name/
-    shortName:            "coga-usable",
+    shortName:            "coga-glossary",
 
 
     // if you wish the publication date to be other than today, set this
@@ -31,7 +31,7 @@ var respecConfig = {
     //previousDiffURI: "",
 
     // if there a publicly available Editors Draft, this is the link
-    edDraftURI: "https://w3c.github.io/coga/content-usable/",
+    edDraftURI: "https://w3c.github.io/coga/glossary/",
 
     // if this is a LCWD, uncomment and set the end of its review period
     // lcEnd: "2012-02-21",
@@ -43,32 +43,17 @@ var respecConfig = {
         name: "Lisa Seeman",
         url: 'http://athena-ict.com',
         mailto: "lisa.seeman@zoho.com",
-        company: "Invited expert",  
         w3cid: 16320
-      },
-      {
-        name: "Rachael Montgomery",
-        mailto: "rachael@accessiblecommunity.org",
-        company: "Invited expert",
-        w3cid: 90310
       },
        
       {
-        name: "Steve Lee",
+        name: "Michael Cooper",
         url: 'https://www.w3.org',
-        mailto: "stevelee@w3.org",
+        mailto: "cooper@w3.org",
         company: "W3C",
         companyURI: "http://www.w3.org",
-        w3cid: 71103
-      },
-      {
-        name: "Ruoxi Ran",
-        url: 'https://www.w3.org',
-        mailto: "ran@w3.org",
-        company: "W3C",
-        companyURI: "http://www.w3.org",
-        w3cid: 100586
-      },
+        w3cid: 34017
+      }
       
     ],
 
@@ -105,12 +90,8 @@ var respecConfig = {
     // This is important for Rec-track documents, do not copy a patent URI from a random
     // document unless you know what you're doing. If in doubt ask your friendly neighbourhood
     // Team Contact.
-<<<<<<< HEAD
-    wgPatentURI:  ["https://www.w3.org/2004/01/pp-impl/83907/status", "https://www.w3.org/2004/01/pp-impl/35422/status"],
-=======
     wgPatentURI:  ["https://www.w3.org/2004/01/pp-impl/83907/status", "https://www.w3.org/2004/01/pp-impl/32212/status"],
->>>>>>> a3477b1c659c057b643f7665b5852b2dd4feb8ba
-    maxTocLevel: 3,
+    maxTocLevel: 4,
 
     localBiblio: biblio,
 
