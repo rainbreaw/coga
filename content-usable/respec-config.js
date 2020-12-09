@@ -7,7 +7,7 @@ var respecConfig = {
     permalinkHide:     false,
     tocIntroductory: true,
     // specification status (e.g., WD, LC, NOTE, etc.). If in doubt use ED.
-    specStatus:           "ED",
+    specStatus:           "WD",
     noRecTrack: true,
     //crEnd:                "2012-04-30",
     //perEnd:               "2013-07-23",
@@ -25,8 +25,8 @@ var respecConfig = {
 
     // if there is a previously published draft, uncomment this and set its YYYY-MM-DD date
     // and its maturity status
-    //previousPublishDate:  "",
-    //previousMaturity:  "",
+    previousPublishDate:  "2020-07-17",
+    previousMaturity:  "WD",
     //prevRecURI: "",
     //previousDiffURI: "",
 
@@ -108,7 +108,7 @@ var respecConfig = {
     wgPatentURI:  ["https://www.w3.org/2004/01/pp-impl/83907/status", "https://www.w3.org/2004/01/pp-impl/32212/status"],
     maxTocLevel: 3,
 
-    localBiblio: biblio,
+    //localBiblio: biblio,
 
     // Spec URLs
         
